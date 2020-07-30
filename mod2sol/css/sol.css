@@ -13,7 +13,9 @@ section{
 background-color: blueviolet;
     height: 100px;
 }
-
+p {
+    color: cornflowerblue;
+}
 
 
 
