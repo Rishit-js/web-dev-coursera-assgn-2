@@ -13,7 +13,9 @@ p {
     color: cornflowerblue;
     float: left;
     overflow: auto;
+    padding: 10px;
 }
+
 
 
 
