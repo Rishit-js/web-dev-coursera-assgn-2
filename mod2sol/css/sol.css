@@ -4,6 +4,7 @@
 
 h1 {
     text-align: center;
+
 }
 .row {
     width: 100%;
@@ -13,9 +14,11 @@ p {
     color: cornflowerblue;
     float: left;
     overflow: auto;
+    
+}
+div {
     padding: 10px;
 }
-
 
 
 
@@ -27,7 +30,6 @@ p {
     {
      border: 2px solid blue;
      float: left;
-     margin: 10px;
     }
 .col-lg-1{
     width: 8.33%;
