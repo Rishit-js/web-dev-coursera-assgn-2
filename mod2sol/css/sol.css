@@ -11,6 +11,8 @@ h1 {
 
 p {
     color: cornflowerblue;
+    float: left;
+    overflow: auto;
 }
 
 
