@@ -5,57 +5,52 @@
 h1 {
     text-align: center;
 margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: cadetblue;
 }
 body {
-    background-color: ivory;
+    background-color: dodgerblue;
+}
+section {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: darkorange;
+  
 }
 
 p {
     color: cornflowerblue;
     background-color: cornsilk;
-    height: 100px;
+    height: 150px;
     width: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: auto;
-  margin-left: auto;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: auto;
+    
 }
 
 .row {
     width: 100%;
 }
-#sushi {
-    position: relative ;
-    left: 280px;
-    margin-top: auto;
-    background-color: honeydew;
-    width: 60px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+
+section > h2 {
+  float: right;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  background-color: dimgray;
+  border: 1px solid black;
 }
-#beef {
-    position: relative;
-    left: 300px;
-    margin-top: auto;
-    background-color: honeydew;
-    font-family: Arial, Helvetica, sans-serif;
-    width: min-content;
-}
-#chicken {
-    position: relative;
-    left: 250px;
-    margin-top: auto;
-    background-color: honeydew;
-    width: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+  
+
 
 
 
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      border: 5px solid green;
-      background-color: hotpink;
+      
       
     }
     .col-lg-1 {
@@ -100,7 +95,6 @@ p {
   @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
-      border: 1px solid green;
     }
     .col-md-1 {
       width: 8.33%;
@@ -146,8 +140,7 @@ p {
 @media (max-width: 767px){
     
         .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
-          
-          border: 1px solid green;
+          float: left;
         }
         .col-sd-1 {
           width: 8.33%;
