@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: goldenrod;
+}
+section {
+border: 5px solid gray;
+background-color: grey;
+}
+p{
+    padding: 10px;
+    background-color: lightgray;
+}
+h2 {
+    text-align: center;
+    
+}
+
+.container {
+    margin-top: 10px;
+}
+#beef {
+    margin-top: 20px;
+}
+h1 {
+    
+    background-color: indianred;
+    margin-top: 20px;
+}
+#sushi {
+    margin-top: 20px
+}
+#chicken {
+    margin-top: 20px;
+}
