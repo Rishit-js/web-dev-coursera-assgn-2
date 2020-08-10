@@ -63,4 +63,4 @@ for (let element of names) {
   } else {
      helloSpeaker.speak(element);
   }
-}})()
+}})(window)
